@@ -1,0 +1,61 @@
+
+
+/* Centering the container */
+div {
+  /* display: flex; */
+   justify-content: center; 
+  align-items: center;
+  height: 120px; /* You can adjust the height as needed */
+}
+
+/* Form container styles */
+form {
+  width: 300px; /* Adjust width as needed */
+  padding: 25px;
+  border: 20px solid #40d54a2f;
+  border-radius: 5px;
+  background-color: #d7d23433;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: auto;
+}
+
+/* Input field styles */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #2298ce38;
+  border-radius: 3px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Button styles */
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #7b00ff79;
+  color: #fff;
+  border: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Centering the heading */
+h3 {
+  text-align: center;
+}
+
+/* Underline for heading */
+u {
+  text-decoration: underline;
+}
